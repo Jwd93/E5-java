@@ -32,7 +32,7 @@ public class PersonnelConsole
 
 	private Menu menuQuitter()
 	{
-		Menu menu = new Menu("Quitter", "q");
+		Menu menu = new Menu("Quitter Jawed", "q");
 		menu.add(quitterEtEnregistrer());
 		menu.add(quitterSansEnregistrer());
 		menu.addBack("r");
